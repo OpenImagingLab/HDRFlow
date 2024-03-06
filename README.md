@@ -24,4 +24,23 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
 
 #### 0. Set up training datasets
 
+```
+├── /data
+    ├── vimeo_septuplet
+        ├── sequences
+    ├── Sintel
+        ├── clean
+        ├── final
+        ├── flow
+        ├── reverse_flow
+        ├── flow_2
+        ├── reverse_flow_2
+    ├── HDR_Synthetic_Test_Dataset
+    ├── dynamic_RGB_data_2exp_release
+    ├── static_RGB_data_2exp_rand_motion_release
+    ├── dynamic_RGB_data_3exp_release
+    ├── static_RGB_data_3exp_rand_motion_release
+    ├── TOG13_Dynamic_Dataset
+```
+
 
