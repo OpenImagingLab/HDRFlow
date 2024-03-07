@@ -16,7 +16,7 @@ from utils.utils import *
 from utils import flow_viz
 
 parser = argparse.ArgumentParser(description="Test Setting")
-parser.add_argument("--dataset_dir", type=str, default='/mnt/workspace/xugangwei/data/TOG13_Dynamic_Dataset/ThrowingTowel-2Exp-3Stop',
+parser.add_argument("--dataset_dir", type=str, default='data/TOG13_Dynamic_Dataset/ThrowingTowel-2Exp-3Stop',
                         help='dataset directory')
 parser.add_argument('--pretrained_model', type=str, default='./pretrained_models/2E/checkpoint.pth')
 parser.add_argument('--save_results', action='store_true', default=True)
