@@ -56,7 +56,6 @@ We evaluate our method on HDR_Synthetic_Test_Dataset (Cinematic Video dataset), 
 python test_2E.py --dataset DeepHDRVideo --dataset_dir data/dynamic_RGB_data_2exp_release
 python test_2E.py --dataset DeepHDRVideo --dataset_dir data/static_RGB_data_2exp_rand_motion_release
 python test_2E.py --dataset CinematicVideo --dataset_dir data/HDR_Synthetic_Test_Dataset
-python test_2E.py --dataset CinematicVideo --dataset_dir data/HDR_Synthetic_Test_Dataset
 python test_tog13_2E.py
 ```
 
