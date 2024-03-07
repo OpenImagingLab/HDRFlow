@@ -78,3 +78,6 @@ python train_2E.py
 python train_3E.py
 ```
 
+## Acknowledgement
+This project is based on [DeepHDRVideo](https://github.com/guanyingc/DeepHDRVideo), we thank the original authors for their excellent work.
+
