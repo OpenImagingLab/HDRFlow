@@ -16,7 +16,7 @@ def get_args():
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--dataset_vimeo_dir", type=str, default='data/vimeo_septuplet',
                         help='dataset directory'),
-    parser.add_argument("--dataset_sintel_dir", type=str, default='/mnt/workspace/xugangwei/data/Sintel/training/',
+    parser.add_argument("--dataset_sintel_dir", type=str, default='data/Sintel/training/',
                         help='dataset directory'),
     parser.add_argument('--logdir', type=str, default='./checkpoints_2E',
                         help='target log directory')
