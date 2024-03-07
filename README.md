@@ -23,6 +23,7 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
 ### Set up datasets
 
 #### 0. Set up training datasets
+We utilize Vimeo-90K and Sintel datasets as our training datasets. The Vimeo-90K dataset can be downloaded at [DeepHDRVideo-Dataset](https://github.com/guanyingc/DeepHDRVideo-Dataset). The training datasets are organized as follows:
 
 ```
 ├── /data
@@ -35,6 +36,13 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
         ├── reverse_flow
         ├── flow_2
         ├── reverse_flow_2
+```
+
+#### 1. Set up test datasets
+We evaluate our method on HDR_Synthetic_Test_Dataset (Cinematic Video dataset), DeepHDRVideo, and TOG13_Dynamic_Dataset (HDRVideo dataset). These datasets can be downloaded at [DeepHDRVideo-Dataset](https://github.com/guanyingc/DeepHDRVideo-Dataset). The HDR_Synthetic_Test_Dataset contains two synthetic videos (POKER FULLSHOT and CAROUSEL FIREWORKS), DeepHDRVideo consists of both real-world dynamic scenes and static scenes that have been augmented with random global motion. The TOG13_Dynamic_Dataset does not have ground truth, so we use it for qualitative evaluation. The test datasets are organized as follows:
+
+```
+├── /data
     ├── HDR_Synthetic_Test_Dataset
     ├── dynamic_RGB_data_2exp_release
     ├── static_RGB_data_2exp_rand_motion_release
@@ -43,4 +51,33 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
     ├── TOG13_Dynamic_Dataset
 ```
 
+## Evaluation and Training
+### Evaluation
+
+2 Exposures
+```
+python test_2E.py --dataset DeepHDRVideo --dataset_dir data/dynamic_RGB_data_2exp_release
+python test_2E.py --dataset DeepHDRVideo --dataset_dir data/static_RGB_data_2exp_rand_motion_release
+python test_2E.py --dataset CinematicVideo --dataset_dir data/HDR_Synthetic_Test_Dataset
+python test_2E.py --dataset CinematicVideo --dataset_dir data/HDR_Synthetic_Test_Dataset
+python test_tog13_2E.py
+```
+
+3 Exposures
+```
+python test_3E.py --dataset DeepHDRVideo --dataset_dir data/dynamic_RGB_data_3exp_release
+python test_3E.py --dataset DeepHDRVideo --dataset_dir data/static_RGB_data_3exp_rand_motion_release
+python test_3E.py --dataset CinematicVideo --dataset_dir data/HDR_Synthetic_Test_Dataset
+python test_tog13_3E.py
+```
+### Training
+2 Exposures
+```
+python train_2E.py
+```
+
+3 Exposures
+```
+python train_3E.py
+```
 
