@@ -8,8 +8,6 @@ CVPR 2024 <br><br>
 We propose a robust and efficient flow estimator tailored for real-time HDR video reconstruction, named HDRFlow. HDRFlow predicts HDR-oriented optical flow and exhibits robustness to large motions. We compare our HDR-oriented flow with RAFT's flow. RAFT's flow is sub-optimal for HDR fusion, and alignment may fail in occluded regions, leading to significant ghosting artifacts in the HDR output.<br>
 Compared to previous SOTA methods, our HDRFlow enables real-time reconstruction of HDR video from video sequences captured with alternating exposures.
 
-- [ ] Release the training and testing code.
-
 ## Installation
 
 ### Set up the python environment
@@ -53,7 +51,6 @@ We evaluate our method on HDR_Synthetic_Test_Dataset (Cinematic Video dataset), 
 
 ## Evaluation and Training
 ### Evaluation
-
 2 Exposures
 ```
 python test_2E.py --dataset DeepHDRVideo --dataset_dir data/dynamic_RGB_data_2exp_release
