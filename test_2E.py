@@ -23,7 +23,7 @@ parser.add_argument("--dataset", type=str, default='DeepHDRVideo', choices=['Dee
                         help='dataset directory')
 parser.add_argument("--dataset_dir", type=str, default='data/dynamic_RGB_data_2exp_release',
                         help='dataset directory')
-# parser.add_argument("--dataset_dir", type=str, default='/mnt/workspace/xugangwei/data/static_RGB_data_2exp_rand_motion_release',
+# parser.add_argument("--dataset_dir", type=str, default='data/static_RGB_data_2exp_rand_motion_release',
 #                         help='dataset directory')
 # parser.add_argument("--dataset_dir", type=str, default='data/HDR_Synthetic_Test_Dataset',
 #                         help='dataset directory')
