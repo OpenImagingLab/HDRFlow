@@ -77,6 +77,19 @@ python train_2E.py
 python train_3E.py
 ```
 
+## Citation
+
+If you find this code useful for your research, please use the following BibTeX entry.
+
+```
+@inproceedings{xu2024hdrflow,
+  title={HDRFlow: Real-Time HDR Video Reconstruction with Large Motions},
+  author={Xu, Gangwei and Wang, Yujin and Gu, Jinwei and Xue, Tianfan and Yang, Xin},
+  booktitle={CVPR},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 This project is based on [DeepHDRVideo](https://github.com/guanyingc/DeepHDRVideo), we thank the original authors for their excellent work.
 
