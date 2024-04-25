@@ -28,12 +28,13 @@ We utilize Vimeo-90K and Sintel datasets as our training datasets. The Vimeo-90K
             ├── vimeo_septuplet
                 ├── sequences
             ├── Sintel
-                ├── clean
-                ├── final
-                ├── flow
-                ├── reverse_flow
-                ├── flow_2
-                ├── reverse_flow_2
+                ├── training
+                    ├── clean
+                    ├── final
+                    ├── flow
+                    ├── reverse_flow
+                    ├── flow_2
+                    ├── reverse_flow_2
 ```
 
 #### 1. Set up test datasets
