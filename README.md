@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ### Set up datasets
 
 #### 0. Set up training datasets
-We utilize Vimeo-90K and Sintel datasets as our training datasets. The Vimeo-90K dataset can be downloaded at [DeepHDRVideo-Dataset](https://github.com/guanyingc/DeepHDRVideo-Dataset). The training datasets are organized as follows:
+We utilize Vimeo-90K and Sintel datasets as our training datasets. The Vimeo-90K dataset can be downloaded at [DeepHDRVideo-Dataset](https://github.com/guanyingc/DeepHDRVideo-Dataset). The Sintel dataset can be downloaded at [BaiduYun](https://pan.baidu.com/s/1GBRyIWZmlGbTGptYX1j-zQ?pwd=gnqj). The training datasets are organized as follows:
 ```
 ├── HDRFlow/data
             ├── vimeo_septuplet
