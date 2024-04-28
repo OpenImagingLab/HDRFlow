@@ -51,6 +51,12 @@ We evaluate our method on HDR_Synthetic_Test_Dataset (Cinematic Video dataset), 
 ```
 
 ## Evaluation and Training
+### Demo
+You can demo a pre-trained model on ThrowingTowel-2Exp-3Stop from TOG13_Dynamic_Dataset. The TOG13_Dynamic_Dataset can be downloaded at [BaiduYun](https://pan.baidu.com/s/1GBRyIWZmlGbTGptYX1j-zQ?pwd=gnqj).
+```
+python test_tog13_2E.py
+```
+
 ### Evaluation
 2 Exposures
 ```
