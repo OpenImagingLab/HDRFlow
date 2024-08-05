@@ -40,7 +40,7 @@ def ldr_to_hdr(img, expo, gamma=2.2):
 # def hdr_to_ldr(img, expo, gamma=2.2, stdv1=1e-3, stdv2=1e-3):
 def hdr_to_ldr(img, expo, gamma=2.2, stdv1=1e-3, stdv2=1e-3):
     # add noise to low expo
-    if expo == 1.:
+    if expo == 1. or expo == 4.:
         stdv = np.random.rand(*img.shape) * (stdv2 - stdv1) + stdv1
         noise = np.random.normal(0, stdv)
         img = (img + noise).clip(0, 1)
