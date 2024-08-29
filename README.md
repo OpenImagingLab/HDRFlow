@@ -92,9 +92,11 @@ If you find this code useful for your research, please use the following BibTeX 
 @inproceedings{xu2024hdrflow,
   title={HDRFlow: Real-Time HDR Video Reconstruction with Large Motions},
   author={Xu, Gangwei and Wang, Yujin and Gu, Jinwei and Xue, Tianfan and Yang, Xin},
-  booktitle={CVPR},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={24851--24860},
   year={2024}
 }
+
 ```
 
 ## Acknowledgement
