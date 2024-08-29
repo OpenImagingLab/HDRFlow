@@ -1,5 +1,5 @@
 # HDRFlow: Real-Time HDR Video Reconstruction with Large Motions
-### [Project Page](https://openimaginglab.github.io/HDRFlow/) | [Paper]([https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_HDRFlow_Real-Time_HDR_Video_Reconstruction_with_Large_Motions_CVPR_2024_paper.pdf](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_HDRFlow_Real-Time_HDR_Video_Reconstruction_with_Large_Motions_CVPR_2024_paper.pdf)) <br>
+### [Project Page](https://openimaginglab.github.io/HDRFlow/) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_HDRFlow_Real-Time_HDR_Video_Reconstruction_with_Large_Motions_CVPR_2024_paper.pdf)) <br>
 
 Gangwei Xu, Yujin Wang, Jinwei Gu, Tianfan Xue, Xin Yang <br>
 CVPR 2024 <br><br>
